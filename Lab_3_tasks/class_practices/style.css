@@ -1,0 +1,108 @@
+
+
+.myButton{
+    color: brown;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: blueviolet;
+
+    margin: 5px;
+    width: fit-content;
+}
+
+.myButton:hover{
+padding: 15px;
+border-radius: 5px;
+background-color: blanchedalmond;
+
+margin: 10px;
+
+}
+
+
+
+.LoremText:hover{
+    text-transform: uppercase;
+
+}
+
+/* span:first-child{
+    background-color: aqua;
+    color: blue;
+} */
+
+/* .customName  span:first-child{
+    background-color: aqua;
+    color: blue;
+} */
+.customName > span:first-child{
+    background-color: aqua;
+    color: blue;
+}
+.parent{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+   
+}
+.child{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    background-color: blueviolet;
+    /* z-index: -1;  */
+     top: 75%;
+    left: 75%;
+    font-family: "Sofia", sans-serif;
+     
+    
+}
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  div span{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    display: block;
+  }
+
+  .inner{
+    height: 150px;
+    width: 150px;
+    background-color: hotpink;
+    display: inline;
+    margin: 10px;
+    border-radius: 50%;
+    justify-content: center;
+
+
+
+  }
+  .container{
+    margin: 20px;
+    
+  }
+  .inner:first-child{
+    color: green;
+    background-color: green;
+  }
+  .inner:last-child{
+    color: red;
+    background-color: red;
+  }
+
+  .flex-container{
+    height: 100vh;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+
