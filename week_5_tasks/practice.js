@@ -76,5 +76,16 @@ function greet(name) {
             { 
                 return num * 2; }
             );
-
+                var doubArr=[]
         console.log(doubled)
+        function doubleFunc(num = [],m=number){
+            for(let i of num ){
+                var k = i*m
+                doubArr.push(k)
+            }
+            return doubArr;
+        }
+        console.log(numbers)
+        console.log(doubleFunc(numbers,3))
+
+        
