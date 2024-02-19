@@ -15,5 +15,11 @@ const doubled = numbers.filter(    // forEach does not return values and map ret
 
     var names=["Muskan","Sonia","Hello"]
 
-    console.log(names.filter(item => item.includes('a') ));  // one liner function
-    
+    console.log(names.filter(item => item.includes('e') ));  // one liner function
+
+    console.log([1,2,3,4,4].reduce((total,item) => {
+         return total+item;
+
+    }
+    ))
+   
