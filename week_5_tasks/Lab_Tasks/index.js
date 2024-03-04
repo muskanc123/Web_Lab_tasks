@@ -29,7 +29,18 @@ const numbers = [1, 2, 3, 4, 5];
 const doubleFunc = (num) => num * 2;
 function applyFunction(numArray,func){
     console.log("Task 3 Output")
-    return numbers.map(func);
+    return numArray.map(func);
 }
 console.log(applyFunction(numbers,doubleFunc))
+
+function customFilter(numbers){
+    var arr =[]
+    for(let i of numbers){
+        if(numbers[i]% 2 ==0){
+            arr.push(numbers[i])
+        }
+        return arr;
+    }
+}
+console.log(customFilter([1,2,3,4,5,6]))
 

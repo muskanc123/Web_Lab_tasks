@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ol id="list">
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li> List 4</li>
+    </ol>
+    <p>para1 1</p>
+    <p>para1 2</p>
+    <p>para1 3</p>
+
+    <p>
+    <div>
+        <p>paragraph 1 inside div </p>
+        <p>paragraph 2 inside div </p>
+        <p>paragraph 3 inside div </p>
+    </div>
+    </p>
+
+    
+
+
+
+    <script>
+        var mylist = document.getElementById("list")
+        console.log(mylist.innerHTML)
+        console.log(mylist.innerText)
+        mylist.innerHTML = "<h1>Hi </h1>"
+        console.log(mylist)
+        var myTag = document.getElementsByTagName("p")
+        console.log(myTag)
+        myTag[0].innerText = "Hello world"
+        
+
+        console.log(document.querySelectorAll("div > p"))
+    </script>
+</body>
+
+</html>
